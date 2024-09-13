@@ -32,7 +32,7 @@ let nextText= bodyType==="Normal"?"Good Work keep it up!"
 
 : bodyType==="underweight"?"<span> click <a class='link' href='https://www.healthline.com/nutrition/how-to-gain-weight' target='_blank'>here</a> to read an article about gaining weight</span>"
 
-:"<span> click <a  class='link' href='https://www.health.harvard.edu/topics/diet-and-weight-loss' target='_blank'>here</a> to read an article about lossing weight</span>"
+:"<span> click <a  class='link' href='https://www.health.harvard.edu/topics/diet-and-weight-loss' target='_blank'>here</a> to read an article about loosing weight</span>"
 
 
   result.innerHTML=`<span id="BMI">Your BMI is ${bmi}</span> <br/><br/> <p >According to your BMI your body is <span id="highlightedText">${bodyType}</span> </P> <br/> <p id="nextStep">${nextText}</p>`
