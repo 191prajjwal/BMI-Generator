@@ -36,11 +36,11 @@ form{
 input{
     padding:5px 20px;
     border:none;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 5px;
     background-color: bisque;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: rgb(41, 116, 255);
     &::placeholder{
        
@@ -61,8 +61,10 @@ button{
     cursor: pointer;
     font-size: 1rem;
     position:absolute;
+    transition :transform 0.4s;
     &:hover{
         background-color: rgb(71, 130, 240);
+        transform:scale(1.1)
     }
 }
 
@@ -71,14 +73,18 @@ button{
     font-size: 1.2rem;
     height:fit-content;
     padding:10px;
-    margin:20px 10px 0px 10px;
-    font-family: cursive;
-    display:none
+    margin:40px 10px 0px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display:none;
+    
 }
 
+
+
+
 #BMI{
-   background-color: rgba(32, 114, 255, 0.2);
-    padding:10px 80px;
+   background-color: rgba(32, 114, 255, 0.04);
+    padding:10px 100px;
     border-radius: 10px;
     font-size: 1rem;
 }
@@ -108,7 +114,13 @@ button{
     display: flex; 
     justify-content: center;
    margin-top: 40px;
+   transition: all 1s;
     
+}
+
+
+#guide:hover{
+    transform: scale(1.1);
 }
 
 #guide h2{
@@ -124,13 +136,13 @@ button{
     flex-direction: column;
     justify-content: center;
     gap:10px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
     position: absolute;
     width: fit-content;
     padding:20px 30px;
-    border:2px solid rgb(82, 82, 82)
+    border:2px solid rgb(82, 82, 82,0.2)
     
 
 }

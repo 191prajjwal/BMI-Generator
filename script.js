@@ -10,13 +10,15 @@ form.addEventListener("submit",(e)=>{
  const result= document.querySelector("#result")
  result.style.display="inline-block"
 
- if( height==="0")
+
+
+ if( height<=0)
  {
-   result.innerHTML="<span>Come on, No one has a height of zero 😒<span>"
+   result.innerHTML="<span>Come on, No one has a height of zero or less than zero 😒<span>"
    return
  }
 
-  if(weight==="0"){
+  if(weight<=0){
 
     result.innerHTML="<span>You're not a ghost, are you? You must weigh something!😂<span>"
    return
