@@ -36,3 +36,7 @@ Contributions are welcome! Please feel free to fork the repository, make changes
 **License:**
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+
+**Deployment:**[link](https://191prajjwal.github.io/BMI-Generator/
+)
